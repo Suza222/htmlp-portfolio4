@@ -1,0 +1,99 @@
+
+.mainpage {
+    display: flex;
+    flex:block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10% 10% 10% 10%;
+    margin: 20px 10px 20px 10px;
+}
+h1 {
+
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mountainimage { 
+display:flex;
+flex:1 0 0;
+align-self:baseline; 
+border: #007e7e;
+}
+
+.about {
+
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+    padding: 10% 10% 10% 10%;
+    margin: 20px 10px 20px 10px;
+    background-color: #1111;
+    border-width: thin;
+    border-style: solid;
+    border-color: #007e7e;
+
+}
+#suzaimage {
+    flex: 1 0 0; 
+border-radius: 30%;
+padding: 10px 10px 10px 10px;
+margin-top: 10px;
+}
+
+.aboutmepage {
+    justify-content: center;
+    text-align: center;
+    background-color: #1111;
+    border-width: thin;
+    border-style: solid;
+    border-color: #007e7e;
+
+}
+
+<!--How to style links in CSS--> 
+
+a:link {
+    color:cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+a:visited {
+    color:black; 
+}
+a:hover {
+    color:purple;
+}
+
+#suza2 {
+margin-top: 20px;
+padding-top: 10% ;
+}
+
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.contact {
+    justify-content: center;
+    text-align: center;
+    padding: 10% 10% 10% 10%;
+}
+.contactbutton {
+    justify-content: center;
+    text-align: center;
+    display:block;
+
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
